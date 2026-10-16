@@ -125,6 +125,5 @@ int main() {
 
     vTaskStartScheduler();
 
-    while (true)
-        ;
+    while (true);
 }
