@@ -13,6 +13,7 @@ const int LED_PIN_R = 4;
 const int LED_PIN_G = 6;
 
 SemaphoreHandle_t xSemaphore_r;
+SemaphoreHandle_t xSemaphore_g;
 
 void led_1_task(void *p) {
   gpio_init(LED_PIN_R);
